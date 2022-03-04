@@ -176,7 +176,7 @@ const RarityList = ({
 					<div className="flex justify-between items-end pb-4 mb-6 border-b border-gray-200 dark:border-gray-700 max-w-screen-xl mx-auto">
 						<div>
 							<h3 className="font-semibold ml-2">
-								{meta.totalCount} Total {process.env.NEXT_PUBLIC_SITENAME}s
+								{meta.totalCount} Total {process.env.NEXT_PUBLIC_SITENAME}
 							</h3>
 						</div>
 						<div className="flex space-x-2 items-center">
