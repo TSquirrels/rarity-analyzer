@@ -107,7 +107,7 @@ export default async function handler(
               content: rarity
                 ? `**${NEXT_PUBLIC_SITENAME} ${
                     process.env.NEXT_PUBLIC_COLLECTION_TOKEN
-                      ? `[#${rarity.id}](https://evm.areaxnft.com/nft/${rarity.id} "Opensea link")`
+                      ? `[#${rarity.id}](https://evm.areaxnft.com/nft/${rarity.id} "AreaX NFT link")`
                       : `#${rarity.id}`
                   }**
 ------------------------------
